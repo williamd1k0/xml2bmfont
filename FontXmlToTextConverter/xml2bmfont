@@ -1,0 +1,2 @@
+#!/usr/bin/sh
+mono xml2bmfont.exe "$@"

@@ -7,7 +7,7 @@ namespace FontXmlToTextConverter {
 	class Program {
 		static void Main(string[] args) {
 			if (args.Length < 1) {
-				Console.WriteLine("Usage: FontXmlToTextConverter font1.fnt font2.fnt ...");
+				Console.WriteLine("Usage: xml2bmfont font1.fnt [font2.fnt ...]");
 				Console.WriteLine("Output: font1.fnt.conv font2.fnt.conv ...");
 				Console.WriteLine("Fnt files are converted from xml to text format, which is readable by defold");
 				return;
